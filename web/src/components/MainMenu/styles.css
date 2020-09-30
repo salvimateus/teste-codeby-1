@@ -16,3 +16,15 @@
 .main-menu a:hover {
     color: var(--color-btn-primary-hover);
 }
+
+.main-menu button {
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: var(--color-btn-primary);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    outline: none;
+    padding: 5px 10px;
+}

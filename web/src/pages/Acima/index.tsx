@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import MainMenu from '../../components/MainMenu';
 
@@ -81,7 +82,7 @@ function Acima() {
             </div>
 
             <div className="inner-wrap">
-                <button className="btn-primary">Finalizar Compra</button>
+                <Link to="/order-sent" className="btn-primary">Finalizar Compra</Link>
             </div>
         </section>
     )
